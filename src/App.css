@@ -1,0 +1,31 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: url('assets/mountains.svg'),
+    linear-gradient(to top, rgb(25, 24, 31), transparent);
+  background-size: contain;
+  background-position: center 70%;
+  background-repeat: no-repeat;
+}
+
+.App img.logo {
+  height: 56px;
+}
+
+.App img.astronaut {
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+  height: 256px;
+}
+
+.App a {
+  color: #7159c1;
+  text-decoration: none;
+}
